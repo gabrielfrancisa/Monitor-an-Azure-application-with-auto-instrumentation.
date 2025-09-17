@@ -126,13 +126,13 @@ In this section, you will perform some actions in the web app and then return to
 
 Perform the following steps in the web app.
 
-Navigate between the Home, + Counter, and Weather navigation options in the menu of the web app.
+1. Navigate between the Home, + Counter, and Weather navigation options in the menu of the web app.
 
-Refresh the web page several times to generate the Server response time and Server requests data.
+2. Refresh the web page several times to generate the Server response time and Server requests data.
 
-To create some errors, select the Home button and then append the URL with /failures. This route doesn't exist in the web app and will generate an error. Refresh the page several times to generate error data.
+3. To create some errors, select the Home button and then append the URL with /failures. This route doesn't exist in the web app and will generate an error. Refresh the page several times to generate error data.
 
-Return to the tab where Application Insights is running, and wait a minute or two for the information to appear in the charts.
+4. Return to the tab where Application Insights is running, and wait a minute or two for the information to appear in the charts.
 
 In the left navigation, expand the Investigate section and select Failures. It displays the failed request count along with more detailed information about the response codes for the failures.
 
