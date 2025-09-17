@@ -1,0 +1,2 @@
+# Monitor-an-Azure-application-with-auto-instrumentation.
+This project, we create an Azure App Service web app with App Insights enabled, configure AUTO-instrumentation, create &amp; deploy a Blazor App,&amp; then view application metrics &amp; error data in App Insights. Implementing comprehensive app monitoring/observability, without having to make changes to your code, makes deployments/migrations simpler.
