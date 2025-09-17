@@ -11,15 +11,14 @@ Tasks performed in this PROJECT:
 
 
 Create resources in Azure
-In your browser, navigate to the Azure portal https://portal.azure.com, signing in with your Azure credentials if prompted.
+1. In your browser, navigate to the Azure portal https://portal.azure.com, signing in with your Azure credentials if prompted.
 
-Select the + Create a resource located in the Azure Services heading near the top of the homepage.
+2. Select the + Create a resource located in the Azure Services heading near the top of the homepage.
 
-In the Search the Marketplace search bar, enter web app and press enter to start searching.
+3. In the Search the Marketplace search bar, enter web app and press enter to start searching.
 
-In the Web App tile, select the Create drop-down and then select Web App.
+4. In the Web App tile, select the Create drop-down and then select Web App.
 
-Screenshot of the Web App tile.
 
 Selecting Create will open a template with a few tabs to fill out with information about your deployment. 
 The following steps walk you through what changes to make in the relevant tabs.
@@ -27,17 +26,17 @@ The following steps walk you through what changes to make in the relevant tabs.
 Fill out the Basics tab with the information in the following table:
 
 >>> Setting	Action
-Subscription:	Retain the default value.
-Resource group:	Select rg-WebApplod54728081.
-Name: monitorapp54728081
-Slider under Name setting:	Select the slider to turn it off. This slider only appears in some Azure configurations.
-Publish	Select the Code option.
-Runtime stack	Select: .NET 8 (LTS) in the drop-down menu.
-Operating System:	Select Windows.
-Region:	Retain the default selection, or choose a region near you. (East US)
-Windows Plan:	Select Create new, type: ASP-rg-WebApp54728081, and then select OK.
-Pricing plan:	Select the drop-down and choose the Free F1, Shared D1, or Basic B1 plan.
-Select, or navigate to, the Monitor + secure tab, and enter the information in the following table:
+1. Subscription:	Retain the default value.
+2. Resource group:	Select rg-WebApplod54728081.
+3. Name: monitorapp54728081
+4. Slider under Name setting:	Select the slider to turn it off. This slider only appears in some Azure configurations.
+5. Publish	Select the Code option.
+6. Runtime stack	Select: .NET 8 (LTS) in the drop-down menu.
+7. Operating System:	Select Windows.
+8. Region:	Retain the default selection, or choose a region near you. (East US)
+9. Windows Plan:	Select Create new, type: ASP-rg-WebApp54728081, and then select OK.
+10. Pricing plan:	Select the drop-down and choose the Free F1, Shared D1, or Basic B1 plan.
+11. Select, or navigate to, the Monitor + secure tab, and enter the information in the following table:
 
 >>> Setting	Action
 Enable Application Insights. Select Yes. If Application Insights on the Monitor + secure tab options are greyed, please select a different pricing plan above.
